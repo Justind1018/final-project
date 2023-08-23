@@ -2,3 +2,12 @@ html {
   height: 100%;
   width: 100%;
 }
+
+h2 
+{ color: mediumpurple;}
+
+.content-section
+{ color : green;}
+
+#About-Me
+{ color : red ;}
