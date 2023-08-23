@@ -3,11 +3,46 @@ html {
   width: 100%;
 }
 
-h2 
-{ color: mediumpurple;}
+body
+{background-color : lightgray;}
 
-.content-section
-{ color : green;}
+body {
+  font-family: 'Brush Script MT', cursive;
+}
 
-#About-Me
-{ color : red ;}
+li 
+{list-style: none;}
+
+.navbar
+{
+  display: flex;
+}
+
+.items
+ {
+   display: flex;
+   text-decoration: none;
+ }
+
+.menu-list-items
+{
+  margin: 69px;
+}
+
+.pp
+{text-decoration: none;}
+
+.navbar 
+{justify-content: center; }
+
+hr{
+  height: 2px;
+  border-color: black;
+  background-color: black;
+}
+
+footer{
+  text-align: center;
+}
+
+
