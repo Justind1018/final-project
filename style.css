@@ -4,7 +4,8 @@ html {
 }
 
 body
-{background-color : lightgray;}
+{background-color:#1c2333;
+text-shadow: whitesmoke;}
 
 body {
   font-family: 'Verdana', monospace;
@@ -25,8 +26,8 @@ li
  .ppp {
    display: flex;
    text-decoration: none;
-   color: gray;
    font-weight: bold;
+   color: black;
    border-bottom:2px solid transparent;
    transition: color 0.1s, border-bottom 0.1s
  }
@@ -73,6 +74,8 @@ footer{
 .pp {
   text-align: center;
 }
+
+
 
 
 
