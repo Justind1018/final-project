@@ -7,7 +7,7 @@ body
 {background-color : lightgray;}
 
 body {
-  font-family: 'Brush Script MT', cursive;
+  font-family: 'Verdana', monospace;
 }
 
 li 
@@ -18,25 +18,45 @@ li
   display: flex;
 }
 
-.items
- {
+.items{
+  display: flex;
+}
+
+ .ppp {
    display: flex;
    text-decoration: none;
+   color: gray;
+   font-weight: bold;
+   border-bottom:2px solid transparent;
+   transition: color 0.1s, border-bottom 0.1s
  }
+
+.ppp:hover {
+  border-bottom: 2px solid;
+  border-bottom-color: black;
+}
 
 .menu-list-items
 {
-  margin: 69px;
+  margin-right: 40px;
+  margin-left: 40px;
+  
 }
 
-.pp
-{text-decoration: none;}
+.pp{
+  text-decoration: none;
+}
 
-.navbar 
-{justify-content: center; }
+.navbar {
+ justify-content: center; 
+}
+
+header{
+  text-align: center;
+}
 
 hr{
-  height: 2px;
+  height: 1px;
   border-color: black;
   background-color: black;
 }
@@ -44,5 +64,15 @@ hr{
 footer{
   text-align: center;
 }
+
+.content-section {
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.pp {
+  text-align: center;
+}
+
 
 
